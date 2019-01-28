@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title> About me Page for HTML Portfolio </title>
+    <meta charset="utf-8">
+    <title> About me Page for HTML Portfolio </title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <body>
-
- 	    <nav>
-    	 <a href="index.html">Home</a>
-     	</nav>
-      	<nav>
-        	<a href="about-me.html">About Me</a>
-        	</nav>
-
-        	<header>
+  <table  width="30%" class="buttons">
+    <tr>
+      <td>
+        <nav>
+         <a href="index.html">Home</a>
+        </nav>
+      </td>
+      <td>
+        <nav>
+            <a href="about-me.html">About Me</a>
+            </nav>
+      </td>
+      <td class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Projects</a>
+        <div class="dropdown-content">
+              <a  href="sectioning-elements.html" target="_blank">Project 1</a>
+              <a href="semantic-elements.html" target="_blank">Project 2</a>
+              <a href="TAP-Project.html" target="_blank">TAP Project</a>
+              <a href="#" target="_blank">Project 4</a>
+              <a href="#" target="_blank">Project 5</a>
+        </div>
+      </td>
+    </tr>
+    </table>
+	   <header>
           	<h2> About the Coder </h2>
         	</header>
 
-       	 <img src="c:\users\JoJo\downloads\20181119_111912.jpg" width="200" height="100" alt= "Selfie of JoJo!">
+	       	<img class="transform-img" src="C:\Users\JoJo\Downloads\20181119_111912.jpg" alt= "Selfie of JoJo!">
 
          <section>
  	         <h2> Backstory</h2>
@@ -36,20 +53,21 @@ foundation for what I had just happened to pick up on my own.</p>
     	</article>
 
 
-      	  <aside>
+      <aside>
           	<h3> Fun Facts </h3>
          	 <ul>
        	 <li> I am currently taking 2 UW certificate programs at the same time. </li>
         	<li> I have gone skydiving for my mothers birthday.  </li>
         	<li> I am super young with an old soul. </li>
+          <li> I bought a house at age 26. </li>
+        	<li> I own 2 boxer puppies with my husband. /li>
       	</ul>
-      	</aside>
+    	</aside>
 
 
-
-
-   	 <footer>
-     	 <p> For more information, please email_________ </p>
-      	</footer>
+          <footer><p> For more information on how to start a project with me, please
+            <a href="mailto:njbp92@gmail.com?subject=SawYourSite!
+            &body=Would love to utilize your coding services">Email Me.</a>
+            </p></footer>
 </body>
 </html>
