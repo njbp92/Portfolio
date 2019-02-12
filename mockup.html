@@ -6,7 +6,7 @@
     <style>
       .bod {
         font-family: Arial, Helvetica, sans-serif;
-        font-color: rgb(57,57,57);
+        color: rgb(57,57,57);
       }
       .bar {
         height: 10rem;
@@ -18,15 +18,26 @@
         background-color: rgb(235,235,235);
         padding: 1rem;
       }
+      .main {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: left;
+      }
       .side {
-        flex-flow: column-reverse wrap-reverse;
-        justify-content: center;
-        align-content: space-between;
-            }
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: right;
+      }
+
       .tail {
         height: 10rem;
         background-color: rgb(57,57,57);
-        padding: 1rem;
+        padding: 4rem;
+        padding-bottom: 8rem;
+        padding-left: 9rem;
+        padding-right: 9rem;
+        display: flex;
+        flex-flow: wrap;
       }
     </style>
 </head>
@@ -38,60 +49,64 @@
   </header>
 
   <nav class="navigate">
-    <b><a> About <a/> / <a> Rates </a> / <a> Liability Release </a> / <a> Kitty Profiles </a> / <a> Book a Cat </a>
+    <b><a> About </a> / <a> Rates </a> / <a> Liability Release </a> / <a> Kitty Profiles </a> / <a> Book a Cat </a>
     </b></nav>
 
-  <h4>Cat ipsum dolor sit amet, find something else more interesting, so
-    catty ipsum mesmerizing birds sleep on my human’s head. </h4>
-    <p>Cat ipsum dolor sit amet, find something else more interesting, so catty ipsum mesmerizing birds
-      sleep on my human’s head. <font color="rgb(44,154,183)"> Hide head under blanket </font> so no one can see stares at human while
-      pushing stuff off a table. Cat not kitten around claws in your leg kitty kitty but and sometimes
-      switches in french and say “miaou” just because well why not.</p>
+          <main class="main">
+              <h4>Cat ipsum dolor sit amet, find something else more interesting, so
+                catty ipsum mesmerizing birds sleep on my human’s head. </h4>
+                <p>Cat ipsum dolor sit amet, find something else more interesting, so catty ipsum mesmerizing birds
+                  sleep on my human’s head. <a style= "color: rgb(44,154,183)">  Hide head under blanket </a> so no one can see stares at human while
+                  pushing stuff off a table. Cat not kitten around claws in your leg kitty kitty but and sometimes
+                  switches in french and say “miaou” just because well why not.</p>
 
-      <blockquote style= "color: rgb(44,154,183)">
-        Please stop looking at your phone an pet me. Lounge in the
-        doorway eat and then sleep on your face meowwww meowwww
-        <br><em>– Jeremy</em>
-      </blockquote>
+                    <blockquote style= "color: rgb(44,154,183)">
+                      Please stop looking at your phone an pet me. Lounge in the
+                      doorway eat and then sleep on your face meowwww meowwww
+                      <br><em>– Jeremy</em>
+                    </blockquote>
 
-      <h3> THE KITTIES TO GO STORY </h3>
-      <p> Fall asleep on the washing machine snuggles up to shoulders or knees and purrs you to sleep.
-        Eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk
-        then <font color="rgb(44,154,183)"> retire to the warmest spot </font> on the couch to claw at the fabric before
-        taking a catnap attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what’s your problem? i
-        meant to do that now i shall wash myself intently cough and swat at dog.
-        Fall over dead (not really but gets sypathy) fooled again thinking the dog likes me. Jump launch
-        to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed hiss at
-        vacuum cleaner and always hungry for lie on your belly and purr when you are asleep stretch. </p>
-      <a style= "color: rgb(44,154,183)"> Find out more >> </a>
+                    <h3> THE KITTIES TO GO STORY </h3>
+                    <p> Fall asleep on the washing machine snuggles up to shoulders or knees and purrs you to sleep.
+                      Eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk
+                      then   <a style= "color: rgb(44,154,183)"> retire to the warmest spot </a> on the couch to claw at the fabric before
+                      taking a catnap attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what’s your problem? i
+                      meant to do that now i shall wash myself intently cough and swat at dog.
+                      Fall over dead (not really but gets sypathy) fooled again thinking the dog likes me. Jump launch
+                      to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed hiss at
+                      vacuum cleaner and always hungry for lie on your belly and purr when you are asleep stretch. </p>
+                    <a style= "color: rgb(44,154,183)"> Find out more >> </a>
+              </main>
 
-      <aside class="side">
-        <Section>
-          	<h3> CATS IN THE NEWS </h3>
-            <p> Chew iPad power cord why must they do that, grab pompom in mouth and put in water dish. </p>
-            <a style= "color: rgb(44,154,183)"> Find out more >> </a>
-            <br>
-            <p> Chew iPad power cord why must they do that, grab pompom in mouth and put in water dish. </p>
-            <a style= "color: rgb(44,154,183)"> Find out more >> </a>
-        </Section>
+            <aside class="side">
+              <Section>
+                	<h3> CATS IN THE NEWS </h3>
+                  <p> Chew iPad power cord why must they do that, grab pompom in mouth and put in water dish. </p>
+                  <a style= "color: rgb(44,154,183)"> Find out more >> </a>
+                  <br>
+                  <p> Chew iPad power cord why must they do that, grab pompom in mouth and put in water dish. </p>
+                  <a style= "color: rgb(44,154,183)"> Find out more >> </a>
+              </Section>
 
-        <Section>
-          <h3> CAT OF THE WEEK </h3>
-          <img alt text= "Grey and white kitten with green eyes"> </img>
-          <a style= "color: rgb(44,154,183)"> Find out more >> </a>
-        </Section>
+              <Section>
+                <h3> CAT OF THE WEEK </h3>
+                <img src="lesson04-mock3-sidebar-cat.jpg" alt= "Grey and white kitten with green eyes">
+                <p> Stare at imaginary bug love blinks and purr purr purr purr. </p>
+                <a style= "color: rgb(44,154,183)"> Find out more >> </a>
+              </Section>
 
-    	</aside>
+          	</aside>
 
 
-      <footer class="tail">
-        <p style="color: white"> Aborpos nisto inci tet aut que volupti beruptiberro to ex
-          esseque invenienihil imaximu scideru ptistiusam consequunt </p>
-          <br>
-        <p style="color: white"> <b> <a> Footer Link 1 </a> /  <a> Footer Link 2 </a>  / <a> Footer Link 3 </a>  /  <a> Footer Link 4 </a> </b>
-        </p>
-        <br>
-        <p style="color: white"> © 2018 Kitties To Go!, LLC | Seattle, WA </p>
-      </footer>
+            <footer class="tail">
+              <img src="lesson04-mock5-cat-logo.png" alt= "Grey and white kitten with green eyes">
+              <p style="color: white"> Aborpos nisto inci tet aut que volupti beruptiberro to ex
+                esseque invenienihil imaximu scideru ptistiusam consequunt </p>
+                <br>
+              <p style="color: white"> <b> <a> Footer Link 1 </a> /  <a> Footer Link 2 </a>  / <a> Footer Link 3 </a>  /  <a> Footer Link 4 </a> </b>
+              </p>
+              <br>
+              <p style="color: white"> © 2018 Kitties To Go!, LLC | Seattle, WA </p>
+            </footer>
 </body>
 </html>
