@@ -1,10 +1,24 @@
 Body {
-  background-color:
-  Bisque
+  background-color:Bisque
+}
+Body{
+  font-family: 'Felipa', cursive;
 }
 
-    .buttons
-    {
+    .box {
+      height:150px;
+      width:150px;
+      border: 4px dashed lightsalmon;
+      background-color: LightSteelBlue;
+      opacity: .8;
+    }
+    .container {
+      display: flex;
+      flex-flow: wrap-reverse;
+      justify-content: left;
+      align-content: space-around;
+    }
+    .buttons {
     overflow:auto;
     text-align: center;
     font-size: 1.0em;
@@ -12,8 +26,7 @@ Body {
     line-height: 200%;
     }
 
-    .buttons a
-    {
+    .buttons a {
     display: inline-block;
     width: 10em;
     height: 2em;
