@@ -6,17 +6,17 @@ Body{
 }
 
     .box {
-      height:150px;
-      width:150px;
+      height:auto;
+      width:auto;
       border: 4px dashed lightsalmon;
       background-color: LightSteelBlue;
       opacity: .8;
     }
     .container {
       display: flex;
-      flex-flow: wrap-reverse;
+      flex-flow: row wrap;
       justify-content: left;
-      align-content: space-around;
+      align-content: space-between;
     }
     .buttons {
     overflow:auto;
@@ -95,4 +95,15 @@ Body{
         border-color: Indigo;
         border-width: 5px;
         width: 25%;
+      }
+    .puppies {
+        padding: 50px;
+        background-color: transparent;
+        transition: transform .2s;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+      }
+    .puppies:hover {
+        transform: scale(2);
       }
