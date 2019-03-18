@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <title>Contact Me for HTML Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+  <body>
+    <H1> Leave me a message! </h1>
+
+    <form method="GET">
+      <label>Your Full Name:
+        <input type="text" name="applicantName">
+      </label>
+
+      <label>Your Email:
+        <input type="email" name="applicantEmail">
+      </label>
+      <label>Let me know what you think!
+        <textarea name="applicantReason" rows="4" cols="50"> </textarea>
+      </label>
+      <fieldset class="checkbox">
+        <legend>How many pages do you want on your site?
+        </legend>
+        <label> Two Pages
+          <input type="checkbox"  name="number of pages" value="2">
+          <span class="checkmark"></span>
+        </label>
+        <label> Three Pages
+          <input type="checkbox"  name="number of pages" value="3">
+          <span class="checkmark"></span>
+        </label>
+        <label> Four Pages
+          <input type="checkbox"  name="number of pages" value="4">
+          <span class="checkmark"></span>
+        </label>
+        <label> Five plus Pages
+          <input type="checkbox"  name="number of pages" value="5+">
+          <span class="checkmark"></span>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend> Do you want me to contact you via email?
+        </legend>
+        <label>Yes
+          <input type="radio" name="email" value="yes">
+        </label>
+        <label>No
+          <input type="radio" name="email" value="no">
+        </label>
+      </fieldset>
+      <input type="submit" value="Send off!">
+    </form>
+
+  </body>
+</html>
