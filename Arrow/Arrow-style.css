@@ -1,0 +1,48 @@
+Body {
+  background-color:#ecb722;
+  color: #444444;
+  font-family: arial;
+  h1: #1b447f;
+}
+
+
+.buttons {
+overflow:auto;
+text-align: center;
+font-size: 1.0em;
+font-weight: bold;
+line-height: 200%;
+margin: auto;
+}
+.buttons a {
+display: inline-block;
+width: 10em;
+height: 3.5em;
+margin-bottom: 0.8em;
+padding-top: .5em;
+padding-bottom: .5em;
+color: #F4A460;
+background-color: #1b447f;
+border-radius: 5px;
+border: solid #cccccc 1px;
+box-shadow: 2px 2px 1px #888888;
+clear:right;
+float:right;
+}
+
+.buttons a:active
+{
+box-shadow: 1px 1px 0px #444444;
+}
+
+
+.info {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.staff {
+  align-content: center;
+}
